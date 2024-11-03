@@ -2,8 +2,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Instagramfeed extends StatelessWidget {
-  const Instagramfeed({super.key});
+class triptales extends StatelessWidget {
+  const triptales({super.key});
 
   final List<Map<String, String>> feedData = const
   [

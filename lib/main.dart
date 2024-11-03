@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
-import 'package:hiy/page/instafeed.dart';
+import 'package:hiy/page/feed.dart';
 
 void main()
 {
-  runApp(Instagram());
+  runApp(travel());
 }
-class Instagram extends StatelessWidget {
-  const Instagram({super.key});
+class travel extends StatelessWidget {
+  const travel({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class Instagram extends StatelessWidget {
               style: TextStyle(fontSize:40 ,color: Colors.white),),
             backgroundColor: Colors.teal,
           ),
-          body:Instagramfeed()
+          body:triptales()
       ),
     );
     return const Placeholder();
